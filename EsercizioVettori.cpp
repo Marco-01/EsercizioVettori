@@ -7,10 +7,12 @@ int main()
 
 {
 
+int v;
 
-cout<<"Hello World"<<endl;
-;
-
+cout<<"Dimmi quanti voti vuoi inserire: "<<endl;
+cin>>v;
+    
+double vettore[v]; //
 
     
      
