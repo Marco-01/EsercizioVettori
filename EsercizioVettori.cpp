@@ -24,13 +24,14 @@ for(i=0; i<v; i++) {
     
     cout << "inserisci il  voto: ";
     cout << i + 1 << endl;
-    do{
+    
+	do{
     cin >> vettore[i];
     
     if(vettore[i]==0)
     {
         
-        cout << "Errore: non si può dividere per 0 . Reinserisci il voto n* : ";
+        cout << "Errore: non si puo' dividere per 0 . Reinserisci il voto n* : ";
         cout << i+1 <<endl;
         
         
@@ -46,10 +47,7 @@ for(i=0; i<v; i++) {
 	
     cout << " La media e' --->  " << m << endl;
      
-    
-    
-    
-     
+    system("PAUSE");
      
      
 }
