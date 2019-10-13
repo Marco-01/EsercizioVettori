@@ -24,10 +24,19 @@ for(i=0; i<v; i++) {
     
     cout << "inserisci il  voto: ";
     cout << i + 1 << endl;
-    
+    do{
     cin >> vettore[i];
     
-   
+    if(vettore[i]==0)
+    {
+        
+        cout << "Errore: non si può dividere per 0 . Reinserisci il voto n* : ";
+        cout << i+1 <<endl;
+        
+        
+    }
+    
+    }while(vettore[i]==0);
     
     a = a + vettore[i];
     
