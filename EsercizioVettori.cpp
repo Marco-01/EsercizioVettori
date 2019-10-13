@@ -9,6 +9,10 @@ int main()
 
 int v;
 
+int m,a,i;
+
+
+
 cout<<"Dimmi quanti voti vuoi inserire: "<<endl;
 cin>>v;
     
