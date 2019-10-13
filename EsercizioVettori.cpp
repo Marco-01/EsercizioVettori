@@ -9,24 +9,33 @@ int main()
 
 int v;
 
-int m,a,i;
+float m;
 
+float a;
 
+int i;
 
-cout<<"Dimmi quanti voti vuoi inserire: "<<endl;
-cin>>v;
+cout << "Dimmi quanti voti vuoi inserire: " << endl;
+cin >> v;
     
-float vettore[v]; 
+float vettore[v];
 
 for(i=0; i<v; i++) {
     
-    cout << "inserisci il " i "voto" << endl;
+    cout << "inserisci il  voto: ";
+    cout << i + 1 << endl;
+    
     cin >> vettore[i];
     
+   
+    
+    a = a + vettore[i];
     
 }
-
-    
+	
+	m = a/v;
+	
+    cout << " La media e' --->  " << m << endl;
      
     
     
